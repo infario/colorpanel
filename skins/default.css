@@ -1,0 +1,87 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #34495e;
+}
+
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+}
+
+.home-menu {
+    background: #2d3e50;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+}
+
+.home-menu .pure-menu-selected .pure-menu-link,
+.home-menu .pure-menu-selected .pure-menu-link:visited {
+    color: #6FBEF3;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}
+
+
+/*
+ * -- SPLASH STYLES --
+ * This is the blue top section that appears on the page.
+ */
+
+.splash-container {
+    background: #1f8dd6;
+}
+
+
+/* This is the main heading that appears on the blue section */
+
+.splash-head {
+    color: white;
+    border: 3px solid white;
+}
+
+.splash-subhead {
+    color: white;
+    opacity: 0.8;
+}
+
+.content-wrapper {
+    background: white;
+}
+
+
+/* This is a modifier class used when the content-head is inside a ribbon */
+
+.content-head-ribbon {
+    color: white;
+}
+
+
+/* This is the class used for the content sub-headers (<h3>) */
+
+.content-subhead {
+    color: #1f8dd6;
+}
+
+
+/* This is the class used for the dark-background areas. */
+
+.ribbon {
+    background: #2d3e50;
+    color: #aaa;
+}
+
+
+/* This is the class used for the footer */
+
+.footer {
+    background: #111;
+}
