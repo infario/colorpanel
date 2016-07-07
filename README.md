@@ -1,6 +1,9 @@
 # colorpanel
 Simple jQuery plugin to switch css stylesheet skin theme on your template demo
 
+### Demo
+[Demo and usage guide](https://infario.github.io/colorpanel/)
+
 ## How to use
 
 ### Include plugin Stylesheet on your head
