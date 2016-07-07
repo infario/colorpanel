@@ -281,8 +281,6 @@ code {
 }
 
 .code {
-    margin-left: -1em;
-    margin-right: -1em;
     padding: 1em;
     border: 1px solid #eee;
     overflow-x: auto;
@@ -322,7 +320,45 @@ code {
     font-family: cursive;
 }
 
+ @media screen and (max-width: 600px) {
+     
+     .content{
+           margin:4px 8px;
+     }
 
+    .pure-table {
+      border: 0;
+      
+    }
+
+    .pure-table thead {
+      display: none;
+    }
+
+    .pure-table tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .pure-table td {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    .pure-table td:last-child {
+      border-bottom: 0;
+    }
+
+    .pure-table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
 
 
 /*
